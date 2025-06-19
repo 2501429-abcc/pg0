@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    background-image: url(https://www.s-hoshino.com/wall/natu/002/002_1600_1200.jpg); 
+    background-size: cover;        
+    background-attachment:fixed;
+    overflow-x: hidden;
+}
+
+nav{
+    width:100%;
+    color:#ffffff;
+    padding:15px;
+    position:fixed;top:0;   
+    display:flex;
+    justify-content:center; 
+    box-sizing:border-box;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    padding:0;    
+    margin:0;   
+}
+
+nav li{
+    margin-left:10px;
+}
+
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    padding:10px;
+}
+
+nav a:hover{
+    background-color:#0b8b8b;
+    border-radius:10px;
+}
+
+.bacground{
+    color:#ffffff;
+    padding:250px;
+    width:100%;
+    margin-left:50px;
+    box-sizing:border-box;
+}
+
+.mainback{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+   flex-wrap: wrap;
+}
+
+.mainback img{
+    width:50%;
+    height:500px;
+    margin-top:10%;
+}
+
+.text{
+    width:50%;
+    text-align:center;
+    color:#ffffff;
+    margin-top:10%;
+}
+
+.text h2,a{
+    text-decoration:none;
+}
+
+.text p,h2{
+    margin-top:50px;
+    margin-left:20px;
+}
+
+h2{
+    text-align:center;
+    color:#ffffff;
+}
+
+.text small,a{
+    color:#ffb1db;
+    text-align: center;
+}
+
+.text strong{
+    color:#fbff04;
+}
+
+.text h2 a{
+    color: #ffffff;
+}
+
+.button-right {
+    text-align: right;
+    margin-top: 20px; 
+    margin-bottom:10px;
+    padding-right: 20px;
+    border-radius:30px;
+}   
+
+.iframe-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3{
+    color: #000000;
+    text-align: center;
+    padding:50px;
+}
+
+.iframe-music {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.iframe-music img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.iframe-music img:hover {
+  transform: scale(1.05);
+}
+
+.title h2{
+    text-align:center;
+    color: #ffffff;
+    padding:50px;
+}
+
+
+
